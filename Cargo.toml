@@ -1,0 +1,12 @@
+[package]
+name = "rust-shell"
+version = "0.1.0"
+authors = ["theshoe1029 <aschueller@zoominternet.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.20.0"
+signal-hook = "0.3.8"
+libc = "0.2"
