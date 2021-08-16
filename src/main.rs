@@ -198,7 +198,7 @@ fn main() -> Result<(), Error> {
                 }
             },
             term_sig => {
-                eprintln!("error: unhandled signal");
+                eprintln!("error: unhandled signal, press F to pay respect");
                 assert!(TERM_SIGNALS.contains(&term_sig));
                 break;
             }
